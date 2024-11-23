@@ -1,30 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Base.hpp                                           :+:      :+:    :+:   */
+/*   C.hpp                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rshatra <rshatra@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/23 15:49:48 by rshatra           #+#    #+#             */
-/*   Updated: 2024/11/23 17:46:20 by rshatra          ###   ########.fr       */
+/*   Created: 2024/11/23 17:35:48 by rshatra           #+#    #+#             */
+/*   Updated: 2024/11/23 17:44:15 by rshatra          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef BASE_HPP
-#define BASE_HPP
+#ifndef C_HPP
+#define C_HPP
 
-#include "iostream"
-#include <cstdlib>
-#include <ctime>
+#include "Base.hpp"
 
-class Base
-{
-	public:
-		virtual ~Base();
-};
-
-Base* generate(void);
-void identify(Base* p);
-void identify(Base& p);
+class C : public Base {};
 
 #endif

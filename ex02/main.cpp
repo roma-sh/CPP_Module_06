@@ -6,11 +6,14 @@
 /*   By: rshatra <rshatra@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 15:52:29 by rshatra           #+#    #+#             */
-/*   Updated: 2024/11/23 17:16:58 by rshatra          ###   ########.fr       */
+/*   Updated: 2024/11/23 17:46:25 by rshatra          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Base.hpp"
+#include "A.hpp"
+#include "B.hpp"
+#include "C.hpp"
 
 int	main(void)
 {
