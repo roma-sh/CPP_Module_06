@@ -6,7 +6,7 @@
 /*   By: rshatra <rshatra@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/17 15:42:06 by rshatra           #+#    #+#             */
-/*   Updated: 2024/11/20 06:01:40 by rshatra          ###   ########.fr       */
+/*   Updated: 2024/11/25 10:06:21 by rshatra          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int	validateChar(std::string input)
 {
 	if (input.empty())
 		return (0);
-	if (input.size() == 1 && !isdigit(input[0]) && input[0] != '+' && input[0] != '-')
+	if (input.size() == 1 && !isdigit(input[0]) && input[0] != '+' || input[0] != '-')
 		return (1);
 	return (0);
 }
